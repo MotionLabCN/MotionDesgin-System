@@ -24,7 +24,8 @@
   "static_framework": true,
   "default_subspecs": [
     "Extensions",
-    "Networking"
+    "Networking",
+    "Tools"
   ],
   "subspecs": [
     {

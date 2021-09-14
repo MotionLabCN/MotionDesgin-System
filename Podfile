@@ -6,7 +6,7 @@ use_frameworks!
 target 'MotionDesgin' do
 
   pod 'MotionComponents', :path => '../MotionComponents'
-  pod 'MotionComponents/Tools', :path => '../MotionComponents'
+#  pod 'MotionComponents/Tools', :path => '../MotionComponents'
 
   pod 'AlertToast'
 
