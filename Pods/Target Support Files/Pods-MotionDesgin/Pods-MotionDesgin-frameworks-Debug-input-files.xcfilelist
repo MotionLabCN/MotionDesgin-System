@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-MotionDesgin/Pods-MotionDesgin-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlertToast/AlertToast.framework
+${BUILT_PRODUCTS_DIR}/KakaJSON/KakaJSON.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
