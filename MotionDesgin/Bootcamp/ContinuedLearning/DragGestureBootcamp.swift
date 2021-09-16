@@ -71,14 +71,55 @@ struct DragGestureBootcamp_Previews: PreviewProvider {
 
 
 struct DragGestureBootcamp2: View {
+    @State var startingOffsetY: CGFloat = UIScreen.main.bounds.height * 0.75
+    @State var currentDragOffsetY: CGFloat = 0
+    @State var endingOffsetY: CGFloat = 0
+
+
     var body: some View {
         ZStack {
             Color.green.ignoresSafeArea()
             
             VStack {
                 Image(systemName: "chevron.up")
+                    .padding(.top)
+                Text("Sing up")
                  
+                Spacer()
             }
+            .frame(maxWidth: .infinity)
+            .background(Color.white)
+            .cornerRadius(30)
+            
+            .offset( y: startingOffsetY)
+            .offset( y: currentDragOffsetY)
+            .offset( y: endingOffsetY)
+
+            .gesture(
+                DragGesture()
+                    .onChanged({ vale in
+                        withAnimation(.spring()) {
+                            currentDragOffsetY = vale.translation.height
+                        }
+                    })
+                    .onEnded({ value in
+                        withAnimation(.spring()) {
+                            if currentDragOffsetY < -150 {
+                                endingOffsetY = -startingOffsetY
+                                currentDragOffsetY = 0
+                            } else if endingOffsetY != 0 && currentDragOffsetY > 150 {
+                                currentDragOffsetY = 0
+                                endingOffsetY = 0
+                            } else {
+                                currentDragOffsetY = 0
+                            }
+                        }
+                    })
+            )
+            
+            Text("\(currentDragOffsetY)")
+            
         }
+        .ignoresSafeArea(edges: .bottom)
     }
 }

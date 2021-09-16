@@ -50,7 +50,8 @@ struct ContentView: View {
     
     enum HomePageData: String, CaseIterable, Identifiable {
         var id: String { rawValue }
-        case 字体排印, 颜色体系, ICON, 按钮, 阴影, 杂物间, 全局提示1, 说明与建议, 全局提示2, 全局加载, TableRow, TextFiled, MTSheet
+        case 字体排印, 颜色体系, ICON, 按钮, 阴影, 杂物间, 全局提示1, 说明与建议, 全局提示2, 全局加载, TextFiled
+//             , MTSheet , TableRow
         func destination() -> some View {
             Group {
                 switch self {
@@ -63,13 +64,12 @@ struct ContentView: View {
                 case .全局提示1: GlobalPush()
                 case .说明与建议: DescAndTipView()
                 case .全局提示2: GlobalPush2()
-                case .TableRow: TableRowView()
                 case .TextFiled: TextFiledsView()
                 case .全局加载: ProgressListView()
                
-               
-                case .MTSheet:
-                    Text("待完善")
+//                case .TableRow: TableRowView()
+//                case .MTSheet:Text("待完善")
+                    
                 }
             }
         }

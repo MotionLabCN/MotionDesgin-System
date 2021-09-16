@@ -29,13 +29,22 @@ class UISatus: ObservableObject {
 @main
 struct MotionDesginApp: App {
     @StateObject var status = UISatus()
-    
+    @State var isPresented = false
+   
     var body: some Scene {
         AppearConfig.config()
         
         return WindowGroup {
-            DragGestureBootcamp()
-//            ContentView()
+//            DragGestureBootcamp2()
+            ContentView()
+//                .mtToast(isPresented: $isPresented)
+//                .overlay(
+//                    Button("click me", action: {
+//                        isPresented = true
+//                    })
+//                    .custom(.mainDefult(isEnable: true))
+//                
+//                )
                 
 //            ZStack(alignment: .bottom) {
 //                TabView {

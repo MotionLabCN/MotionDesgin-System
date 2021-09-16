@@ -30,10 +30,7 @@ struct TextFiledsView: View {
             
             VStack(spacing: 20.0) {
                 
-                HStack {
-                    Image.mt.load(.ATM)
-                    Text("kwg kwg ")
-                }
+            
                 
                 Group {
                     

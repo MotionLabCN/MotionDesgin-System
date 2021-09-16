@@ -12,9 +12,7 @@ struct GlobalPush: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20.0) {
-                Image.mt.load(.ATM)
-                    .mtAnimation(isOverlay: true)
-                
+      
                 Text("PushANofi")
                     .font(.mt.body1.mtBlod(), textColor: .mt.gray_900)
                     .frame(maxWidth: .infinity, alignment: .leading)

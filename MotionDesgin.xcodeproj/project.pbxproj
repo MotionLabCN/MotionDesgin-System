@@ -29,6 +29,8 @@
 		DF8298B426EF97610007DEEA /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298B326EF97610007DEEA /* MagnificationGestureBootcamp.swift */; };
 		DF8298B626EF9B1D0007DEEA /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298B526EF9B1D0007DEEA /* RotationGestureBootcamp.swift */; };
 		DF8298B826EF9C300007DEEA /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298B726EF9C300007DEEA /* DragGestureBootcamp.swift */; };
+		DF8298C226F090020007DEEA /* MTToastViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298C126F090020007DEEA /* MTToastViewModifier.swift */; };
+		DF8298C426F093F60007DEEA /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8298C326F093F60007DEEA /* PopupView.swift */; };
 		DF87BA0326EEE852002291EC /* GlobalPush2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87BA0226EEE852002291EC /* GlobalPush2.swift */; };
 		DF87BA0826EF0025002291EC /* CodeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87BA0726EF0025002291EC /* CodeExampleView.swift */; };
 		DF91742526EF0678005D887C /* TableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91742426EF0678005D887C /* TableRowView.swift */; };
@@ -46,6 +48,13 @@
 		DFC8897826E872EF00996CEC /* ButtonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8897726E872EF00996CEC /* ButtonListView.swift */; };
 		DFC8897B26E873B700996CEC /* luanch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC8897926E873B700996CEC /* luanch@2x.png */; };
 		DFC8897C26E873B700996CEC /* luanch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC8897A26E873B700996CEC /* luanch@3x.png */; };
+		DFD287C426F0D502001A8B8F /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD287C326F0D502001A8B8F /* ScrollViewReaderBootcamp.swift */; };
+		DFD287C626F0D848001A8B8F /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD287C526F0D848001A8B8F /* GeometryReaderBootcamp.swift */; };
+		DFD287C826F0DB7D001A8B8F /* MutipeSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD287C726F0DB7D001A8B8F /* MutipeSheetsBootcamp.swift */; };
+		DFD287CA26F0DF07001A8B8F /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD287C926F0DF07001A8B8F /* SoundsBootcamp.swift */; };
+		DFD287CC26F0E055001A8B8F /* Duck-quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFD287CB26F0E055001A8B8F /* Duck-quack.mp3 */; };
+		DFD287CE26F0E0BF001A8B8F /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD287CD26F0E0BF001A8B8F /* HapticsBootcamp.swift */; };
+		DFD287D026F0E231001A8B8F /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD287CF26F0E231001A8B8F /* LocalNotificationBootcamp.swift */; };
 		DFDECF7326EAED1D007CB1BA /* Douban.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDECF7226EAED1D007CB1BA /* Douban.swift */; };
 		DFDECF7726EAFCA6007CB1BA /* ShadowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDECF7626EAFCA6007CB1BA /* ShadowListView.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +70,8 @@
 		DF8298B326EF97610007DEEA /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		DF8298B526EF9B1D0007DEEA /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		DF8298B726EF9C300007DEEA /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
+		DF8298C126F090020007DEEA /* MTToastViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTToastViewModifier.swift; sourceTree = "<group>"; };
+		DF8298C326F093F60007DEEA /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		DF87BA0226EEE852002291EC /* GlobalPush2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalPush2.swift; sourceTree = "<group>"; };
 		DF87BA0726EF0025002291EC /* CodeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExampleView.swift; sourceTree = "<group>"; };
 		DF91742426EF0678005D887C /* TableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRowView.swift; sourceTree = "<group>"; };
@@ -80,6 +91,13 @@
 		DFC8897726E872EF00996CEC /* ButtonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonListView.swift; sourceTree = "<group>"; };
 		DFC8897926E873B700996CEC /* luanch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luanch@2x.png"; sourceTree = "<group>"; };
 		DFC8897A26E873B700996CEC /* luanch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luanch@3x.png"; sourceTree = "<group>"; };
+		DFD287C326F0D502001A8B8F /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
+		DFD287C526F0D848001A8B8F /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
+		DFD287C726F0DB7D001A8B8F /* MutipeSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutipeSheetsBootcamp.swift; sourceTree = "<group>"; };
+		DFD287C926F0DF07001A8B8F /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		DFD287CB26F0E055001A8B8F /* Duck-quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Duck-quack.mp3"; sourceTree = "<group>"; };
+		DFD287CD26F0E0BF001A8B8F /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		DFD287CF26F0E231001A8B8F /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
 		DFDECF7226EAED1D007CB1BA /* Douban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Douban.swift; sourceTree = "<group>"; };
 		DFDECF7626EAFCA6007CB1BA /* ShadowListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +146,13 @@
 				DF8298B326EF97610007DEEA /* MagnificationGestureBootcamp.swift */,
 				DF8298B526EF9B1D0007DEEA /* RotationGestureBootcamp.swift */,
 				DF8298B726EF9C300007DEEA /* DragGestureBootcamp.swift */,
+				DFD287C326F0D502001A8B8F /* ScrollViewReaderBootcamp.swift */,
+				DFD287C526F0D848001A8B8F /* GeometryReaderBootcamp.swift */,
+				DFD287C726F0DB7D001A8B8F /* MutipeSheetsBootcamp.swift */,
+				DFD287C926F0DF07001A8B8F /* SoundsBootcamp.swift */,
+				DFD287CB26F0E055001A8B8F /* Duck-quack.mp3 */,
+				DFD287CD26F0E0BF001A8B8F /* HapticsBootcamp.swift */,
+				DFD287CF26F0E231001A8B8F /* LocalNotificationBootcamp.swift */,
 			);
 			path = ContinuedLearning;
 			sourceTree = "<group>";
@@ -153,6 +178,8 @@
 		DFA724AC26E60CA400D38E74 /* MotionDesgin */ = {
 			isa = PBXGroup;
 			children = (
+				DF8298C126F090020007DEEA /* MTToastViewModifier.swift */,
+				DF8298C326F093F60007DEEA /* PopupView.swift */,
 				DFA724AD26E60CA400D38E74 /* MotionDesginApp.swift */,
 				DF8298AF26EF90860007DEEA /* Bootcamp */,
 				DFDECF7126EAED10007CB1BA /* Apis */,
@@ -281,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA724B526E60CA500D38E74 /* Preview Assets.xcassets in Resources */,
+				DFD287CC26F0E055001A8B8F /* Duck-quack.mp3 in Resources */,
 				DFC8897B26E873B700996CEC /* luanch@2x.png in Resources */,
 				DFC8897C26E873B700996CEC /* luanch@3x.png in Resources */,
 				DFA724B226E60CA500D38E74 /* Assets.xcassets in Resources */,
@@ -362,16 +390,24 @@
 				DFC846CC26E7113C00C75ECD /* FontListView.swift in Sources */,
 				DFA724B026E60CA400D38E74 /* ContentView.swift in Sources */,
 				DF03E88626EB4CC400622306 /* DescAndTipView.swift in Sources */,
+				DFD287C826F0DB7D001A8B8F /* MutipeSheetsBootcamp.swift in Sources */,
+				DF8298C426F093F60007DEEA /* PopupView.swift in Sources */,
 				DF03E88126EB27AD00622306 /* GlobalPush.swift in Sources */,
+				DFD287C626F0D848001A8B8F /* GeometryReaderBootcamp.swift in Sources */,
 				DF8298B426EF97610007DEEA /* MagnificationGestureBootcamp.swift in Sources */,
+				DFD287C426F0D502001A8B8F /* ScrollViewReaderBootcamp.swift in Sources */,
 				DF91742526EF0678005D887C /* TableRowView.swift in Sources */,
 				DF8298B826EF9C300007DEEA /* DragGestureBootcamp.swift in Sources */,
+				DFD287D026F0E231001A8B8F /* LocalNotificationBootcamp.swift in Sources */,
+				DF8298C226F090020007DEEA /* MTToastViewModifier.swift in Sources */,
 				DF8298B626EF9B1D0007DEEA /* RotationGestureBootcamp.swift in Sources */,
 				DFDECF7726EAFCA6007CB1BA /* ShadowListView.swift in Sources */,
 				DF87BA0826EF0025002291EC /* CodeExampleView.swift in Sources */,
 				DF87BA0326EEE852002291EC /* GlobalPush2.swift in Sources */,
 				DF03E87B26EB1B4800622306 /* UtilityRoomView.swift in Sources */,
 				DF8298B226EF92310007DEEA /* LongPressGestureBootcamp.swift in Sources */,
+				DFD287CE26F0E0BF001A8B8F /* HapticsBootcamp.swift in Sources */,
+				DFD287CA26F0DF07001A8B8F /* SoundsBootcamp.swift in Sources */,
 				DFC846D026E7377F00C75ECD /* ColorListView.swift in Sources */,
 				DFA724AE26E60CA400D38E74 /* MotionDesginApp.swift in Sources */,
 				DFC8897826E872EF00996CEC /* ButtonListView.swift in Sources */,
