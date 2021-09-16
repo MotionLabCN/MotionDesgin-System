@@ -27,7 +27,7 @@ PODS:
 
 DEPENDENCIES:
   - AlertToast
-  - MotionComponents (from `../Motion/MotionComponents`)
+  - MotionComponents (from `../Motion-IOS/MotionComponents`)
 
 SPEC REPOS:
   trunk:
@@ -40,7 +40,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   MotionComponents:
-    :path: "../Motion/MotionComponents"
+    :path: "../Motion-IOS/MotionComponents"
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
@@ -51,6 +51,6 @@ SPEC CHECKSUMS:
   SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 7dd02c849e57430ab1fce6c625cb0624d0bea809
+PODFILE CHECKSUM: 85ddf75a41f3447ed5b29a15a132257312c84c46
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.10.2

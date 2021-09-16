@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5A0842C026F32A4000FACBCC /* TabviewLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0842BF26F32A4000FACBCC /* TabviewLab.swift */; };
 		6FD3DF418A048FC838BEFFB3 /* Pods_MotionDesgin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD9E46EB030E5A665CB751 /* Pods_MotionDesgin.framework */; };
 		DF03E87B26EB1B4800622306 /* UtilityRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF03E87A26EB1B4800622306 /* UtilityRoomView.swift */; };
 		DF03E88126EB27AD00622306 /* GlobalPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF03E88026EB27AD00622306 /* GlobalPush.swift */; };
@@ -61,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		2CBD9E46EB030E5A665CB751 /* Pods_MotionDesgin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotionDesgin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0842BF26F32A4000FACBCC /* TabviewLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabviewLab.swift; sourceTree = "<group>"; };
 		62F19729AC7B7AEE27F73688 /* Pods-MotionDesgin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionDesgin.release.xcconfig"; path = "Target Support Files/Pods-MotionDesgin/Pods-MotionDesgin.release.xcconfig"; sourceTree = "<group>"; };
 		8F764AE1C2A063E2DA839275 /* Pods-MotionDesgin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionDesgin.debug.xcconfig"; path = "Target Support Files/Pods-MotionDesgin/Pods-MotionDesgin.debug.xcconfig"; sourceTree = "<group>"; };
 		DF03E87A26EB1B4800622306 /* UtilityRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityRoomView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				DFD287CB26F0E055001A8B8F /* Duck-quack.mp3 */,
 				DFD287CD26F0E0BF001A8B8F /* HapticsBootcamp.swift */,
 				DFD287CF26F0E231001A8B8F /* LocalNotificationBootcamp.swift */,
+				5A0842BF26F32A4000FACBCC /* TabviewLab.swift */,
 			);
 			path = ContinuedLearning;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				DF87BA0326EEE852002291EC /* GlobalPush2.swift in Sources */,
 				DF03E87B26EB1B4800622306 /* UtilityRoomView.swift in Sources */,
 				DF8298B226EF92310007DEEA /* LongPressGestureBootcamp.swift in Sources */,
+				5A0842C026F32A4000FACBCC /* TabviewLab.swift in Sources */,
 				DFD287CE26F0E0BF001A8B8F /* HapticsBootcamp.swift in Sources */,
 				DFD287CA26F0DF07001A8B8F /* SoundsBootcamp.swift in Sources */,
 				DFC846D026E7377F00C75ECD /* ColorListView.swift in Sources */,
@@ -541,7 +545,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MotionDesgin/Preview Content\"";
-				DEVELOPMENT_TEAM = SM6579H77G;
+				DEVELOPMENT_TEAM = G6M8HGC8FF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MotionDesgin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -564,7 +568,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MotionDesgin/Preview Content\"";
-				DEVELOPMENT_TEAM = SM6579H77G;
+				DEVELOPMENT_TEAM = G6M8HGC8FF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MotionDesgin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
